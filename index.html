@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Julien</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="w-full p-4 bg-blue-900">
+    <div class="flex items-center justify-between  w-2/3 m-auto">
+      <div class="w-24">
+        <img src="logo.png" alt="logo de Julien" class="w-100 rounded-full">
+      </div>
+      <div class="basis-128">
+        <ul class="flex items-center gap-4">
+          <li><a href="acceuil" class="text-white">Acceuil</a></li>
+          <li><a href="" class="text-white">Compétences</a></li>
+          <li><a href="" class="text-white">Projets</a></li>
+        </ul>
+      </div>
+  </nav>
+  <section class="md:flex items-center justify-between md:w-2/3 m-auto mt-6 p-4">
+    <div class="">
+      <h1 class="font-bold text-4xl">Bienvenue sur mon portfolio, je suis <span class="text-blue-900">Julien</span>,
+        dévellopeur web</h1>
+    </div>
+    <div class="md:w-1/3  mt-6 md:mt-0">
+      <img src="myIMG.jpg" alt="Ma photo" class="border-4 border-blue-900">
+    </div>
+  </section>
+  <section id="acceuil" class="md:w-2/3 m-auto mt-8 p-4">
+    <h2 class="text-3xl font-bold my-8 text-blue-900">A propos</h2>
+    <p class="text-xl italic">
+      Bonjour,
+      Mon nom est Julien De Freitas j'ai 27 ans je suis passioné de jeux vidéo et d'histoire. J'ai appris le
+      développement web en autodidatce pendant un an puis j'ai décidé de faire la formation du PoleS et désormais je
+      suis a la recherche de nouveaux défis!
+    </p>
+  </section>
+  <section class="md:w-2/3 m-auto mt-8 p-4">
+    <h2 class="text-3xl font-bold my-8 text-blue-900">Compétences</h2>
+    <div class="flex flex-wrap gap-4">
+      <div class="card-competence border-4 border-blue-900 p-4 w-32 flex flex-col items-center">
+        <img src="html-logo.webp" alt="Html logo" class="competence-img">
+        <h3 class="text-2xl align-middle">Html</h3>
+      </div>
+      <div class="card-competence border-4 border-blue-900 p-4 w-32 flex flex-col items-center">
+        <img src="css-logo.svg" alt="Css logo" class="competence-img">
+        <h3 class="text-2xl align-middle">CSS</h3>
+      </div>
+      <div class="card-competence border-4 border-blue-900 p-4 w-32 flex flex-col items-center">
+        <img src="javascript-logo.webp" alt="Javascript logo" class="competence-img">
+        <h3 class="text-2xl align-middle">Javascript</h3>
+      </div>
+      <div class="card-competence border-4 border-blue-900 p-4 w-32 flex flex-col items-center">
+        <img src="boostrap-logo.png" alt="Boostrap logo" class="competence-img">
+        <h3 class="text-2xl align-middle">Boostrap</h3>
+      </div>
+      <div class="card-competence border-4 border-blue-900 p-4 w-32 flex flex-col items-center">
+        <img src="mysql-logo.svg" alt="sql logo" class="competence-img">
+        <h3 class="text-2xl align-middle">MySql</h3>
+      </div>
+      <div class="card-competence border-4 border-blue-900 p-4 w-32 flex flex-col items-center">
+        <img src="php-logo.png" alt="php logo" class="competence-img">
+        <h3 class="text-2xl align-middle">PHP</h3>
+      </div>
+    </div>
+  </section>
+  <section class="md:w-2/3 m-auto mt-8 p-4">
+    <h2 class="text-3xl font-bold my-8 text-blue-900">Projets</h2>
+    <div class="flex flex-wrap gap-4">
+      <div class="project">
+        <a href="https://fc93.fr/" target="_blank">
+          <img src="fc-93.png" alt="Image du site fc-93">
+        </a>
+        <h3>Fc-93</h3>
+      </div>
+      <div class="project">
+        <a href="https://sonnyfootball.com/" target="_blank">
+          <img src="sonnyFootball.png" alt="Image du site Sonny Football">
+        </a>
+        <h3>Sonny Football</h3>
+      </div>
+      <div class="project">
+        <a href="https://tresordeviana.jdefreitas.ma6tvacoder.org/" target="_blank">
+          <img src="tresor-de-viana.png" alt="Image du site trésor de viana">
+        </a>
+        <h3>Trésor de Viana</h3>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-blue-900 p-6 mt-4">
+    <div class="w-2/3 m-auto mt-16 text-center text-white">Tout droit reservé</div>
+  </footer>
+</body>
+
+</html>
